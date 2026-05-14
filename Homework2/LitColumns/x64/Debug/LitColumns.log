@@ -1,0 +1,172 @@
+﻿  FrameResource.cpp
+D:\jimmy\GGP\GGP_Khu\Homework 2\config.h(109,74): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  (소스 파일 'FrameResource.cpp'을(를) 컴파일하는 중)
+  
+  LitColumnsApp.cpp
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+D:\jimmy\GGP\GGP_Khu\Homework 2\config.h(109,74): warning C4305: '인수': 'double'에서 'float'(으)로 잘립니다.
+  (소스 파일 'LitColumnsApp.cpp'을(를) 컴파일하는 중)
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(768,45): error C2440: '=': 'Material *'에서 'MaterialHW2 *'(으)로 변환할 수 없습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(768,45):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(779,45): error C2440: '=': 'Material *'에서 'MaterialHW2 *'(으)로 변환할 수 없습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(779,45):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(802,54): error C2440: '=': 'Material *'에서 'MaterialHW2 *'(으)로 변환할 수 없습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(802,54):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(811,55): error C2440: '=': 'Material *'에서 'MaterialHW2 *'(으)로 변환할 수 없습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(811,55):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(820,56): error C2440: '=': 'Material *'에서 'MaterialHW2 *'(으)로 변환할 수 없습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(820,56):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(829,57): error C2440: '=': 'Material *'에서 'MaterialHW2 *'(으)로 변환할 수 없습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(829,57):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(847,49): error C2440: '=': 'Material *'에서 'MaterialHW2 *'(으)로 변환할 수 없습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(847,49):
+      가리킨 형식이 관련이 없습니다. 변환하려면 reinterpret_cast, C 스타일 캐스트 또는 괄호가 있는 함수 스타일 캐스트가 필요합니다.
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(852,35): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,25): error C2679: 이항 '=': 오른쪽 피연산자로 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3476,17):
+      'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(const std::unique_ptr<Material,std::default_delete<Material>> &)'일 수 있습니다.
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,25):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(const std::unique_ptr<Material,std::default_delete<Material>> &)': 인수 2을(를) 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'const std::unique_ptr<Material,std::default_delete<Material>> &'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,38):
+              원인: 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'const std::unique_ptr<Material,std::default_delete<Material>>'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,38):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3362,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::nullptr_t) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,25):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::nullptr_t) noexcept': 인수 2을(를) 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::nullptr_t'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,38):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3413,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<Material,std::default_delete<Material>> &&) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,38):
+          '초기화 중': 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::unique_ptr<Material,std::default_delete<Material>> &&'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,38):
+              원인: 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::unique_ptr<Material,std::default_delete<Material>>'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,38):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3406,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,25):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3403,9):
+              'std::enable_if_t<false,int>': 별칭 템플릿을 특수화하지 못했습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(924,25):
+      인수 목록 '(std::unique_ptr<Material,std::default_delete<Material>>, std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>)'을(를) 일치시키는 동안
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,24): error C2679: 이항 '=': 오른쪽 피연산자로 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+  d3dApp.cpp
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3476,17):
+      'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(const std::unique_ptr<Material,std::default_delete<Material>> &)'일 수 있습니다.
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,24):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(const std::unique_ptr<Material,std::default_delete<Material>> &)': 인수 2을(를) 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'const std::unique_ptr<Material,std::default_delete<Material>> &'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,37):
+              원인: 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'const std::unique_ptr<Material,std::default_delete<Material>>'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,37):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3362,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::nullptr_t) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,24):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::nullptr_t) noexcept': 인수 2을(를) 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::nullptr_t'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,37):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3413,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<Material,std::default_delete<Material>> &&) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,37):
+          '초기화 중': 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::unique_ptr<Material,std::default_delete<Material>> &&'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,37):
+              원인: 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::unique_ptr<Material,std::default_delete<Material>>'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,37):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3406,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,24):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3403,9):
+              'std::enable_if_t<false,int>': 별칭 템플릿을 특수화하지 못했습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(925,24):
+      인수 목록 '(std::unique_ptr<Material,std::default_delete<Material>>, std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>)'을(를) 일치시키는 동안
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,23): error C2679: 이항 '=': 오른쪽 피연산자로 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3476,17):
+      'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(const std::unique_ptr<Material,std::default_delete<Material>> &)'일 수 있습니다.
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,23):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(const std::unique_ptr<Material,std::default_delete<Material>> &)': 인수 2을(를) 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'const std::unique_ptr<Material,std::default_delete<Material>> &'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,36):
+              원인: 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'const std::unique_ptr<Material,std::default_delete<Material>>'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,36):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3362,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::nullptr_t) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,23):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::nullptr_t) noexcept': 인수 2을(를) 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::nullptr_t'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,36):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3413,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<Material,std::default_delete<Material>> &&) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,36):
+          '초기화 중': 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::unique_ptr<Material,std::default_delete<Material>> &&'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,36):
+              원인: 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::unique_ptr<Material,std::default_delete<Material>>'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,36):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3406,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,23):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3403,9):
+              'std::enable_if_t<false,int>': 별칭 템플릿을 특수화하지 못했습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,23):
+      인수 목록 '(std::unique_ptr<Material,std::default_delete<Material>>, std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>)'을(를) 일치시키는 동안
+  
+D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,66): error C2679: 이항 '=': 오른쪽 피연산자로 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>' 형식을 사용하는 연산자가 없거나 허용되는 변환이 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3476,17):
+      'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(const std::unique_ptr<Material,std::default_delete<Material>> &)'일 수 있습니다.
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,66):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(const std::unique_ptr<Material,std::default_delete<Material>> &)': 인수 2을(를) 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'const std::unique_ptr<Material,std::default_delete<Material>> &'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(927,14):
+              원인: 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'const std::unique_ptr<Material,std::default_delete<Material>>'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(927,14):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3362,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::nullptr_t) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,66):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::nullptr_t) noexcept': 인수 2을(를) 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::nullptr_t'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(927,14):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3413,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<Material,std::default_delete<Material>> &&) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(927,14):
+          '초기화 중': 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::unique_ptr<Material,std::default_delete<Material>> &&'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(927,14):
+              원인: 'std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>'에서 'std::unique_ptr<Material,std::default_delete<Material>>'(으)로 변환할 수 없습니다.
+              D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(927,14):
+              이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3406,30):
+      또는       'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept'
+          D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,66):
+          'std::unique_ptr<Material,std::default_delete<Material>> &std::unique_ptr<Material,std::default_delete<Material>>::operator =(std::unique_ptr<_Ux,_Dx> &&) noexcept': '__formal'의 템플릿 인수를 추론할 수 없습니다.
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(3403,9):
+              'std::enable_if_t<false,int>': 별칭 템플릿을 특수화하지 못했습니다.
+      D:\jimmy\GGP\GGP_Khu\Homework 2\LitColumnsApp.cpp(926,66):
+      인수 목록 '(std::unique_ptr<Material,std::default_delete<Material>>, std::unique_ptr<MaterialHW2,std::default_delete<MaterialHW2>>)'을(를) 일치시키는 동안
+  
+  d3dUtil.cpp
+  GameTimer.cpp
+  GeometryGenerator.cpp
+  MathHelper.cpp
+  코드를 생성하고 있습니다...

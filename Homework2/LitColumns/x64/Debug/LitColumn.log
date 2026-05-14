@@ -1,0 +1,9 @@
+﻿  LitColumnsApp.cpp
+C:\Users\class\Dropbox\Private\KHU\Lectures\SWCON311 게임그래픽프로그래밍\working\code\Homework 2 Solution\LitColumnsApp.cpp(998,35): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  d3dApp.cpp
+  d3dUtil.cpp
+  GameTimer.cpp
+  GeometryGenerator.cpp
+  MathHelper.cpp
+  코드를 생성하고 있습니다...
+C:\Users\class\Dropbox\Private\KHU\Lectures\SWCON311 게임그래픽프로그래밍\working\code\Homework 2 Solution\GeometryGenerator.cpp(1,1): error C1090: PDB API를 호출하지 못했습니다. 오류 코드 '3': C:\Users\class\Dropbox\Private\KHU\Lectures\SWCON311 게임그래픽프로그래밍\working\code\Homework 2 Solution\LitColumns\x64\Debug\vc145.pdb
