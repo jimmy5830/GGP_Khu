@@ -64,11 +64,10 @@ float4 PS(VertexOut pin) : SV_Target // Pixel Shader
     float3 ambietn = gAmbientLight * gDiffAlbedo;
     Material mat = { gDiffAlbedo, gSpecAlbedo, gShininess };
     float3 directLight = ComputeDirectionalLight(gLights[0], mat, pin.NormalW, toEyeW);
-    flaot4 litColor;
+    float4 litColor;
     litColor.rgb = ambietn + directLight;
     litColor.a = 1.0;
     return litColor;
-    return pin.Color;
 }
 
 

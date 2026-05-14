@@ -48,10 +48,10 @@ float3 BlinnPhong(float3 lightStrength, float3 lightVec, float3 normal, float3 t
 //---------------------------------------------------------------------------------------
 float3 ComputeDirectionalLight(Light L, Material mat, float3 normal, float3 toEye)
 {
-    float3 lightVec = -L.direction;
+    float3 lightVec = -L.Direction;
     float ndotl = max(dot(lightVec, normal), 0.0f);
     float3 lightStrength = L.Strength * ndotl;
-    return BlinnPhong(lightStrength, lightVec, normal, toEye, mat);)
+    return BlinnPhong(lightStrength, lightVec, normal, toEye, mat);
  
 }
 

@@ -114,7 +114,7 @@ private:
     PassConstants mMainPassCB;
 
     std::unordered_map<std::string, std::unique_ptr<MeshGeometry>>    mGeometries;
-    std::unordered_map<std::string, std::unique_ptr<Material>>        mMaterials;
+    std::unordered_map<std::string, std::unique_ptr<MaterialHW2>>        mMaterials;
 
     ComPtr<ID3DBlob> mvsByteCode = nullptr;
     ComPtr<ID3DBlob> mpsByteCode = nullptr;
