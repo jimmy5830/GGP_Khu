@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\",
+  "WorkspaceRootPath": "D:\\GitHub\\GGP_Khu\\Homework2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\Shaders\\color.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|solutionrelative:Shaders\\color.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\GGP_Khu\\Homework2\\Shaders\\LightingUtil.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shaders\\LightingUtil.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\Shaders\\LightingUtil.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|solutionrelative:Shaders\\LightingUtil.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\GitHub\\GGP_Khu\\Homework2\\Shaders\\color.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Shaders\\color.hlsl||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\d3dUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|D:\\GitHub\\GGP_Khu\\Homework2\\d3dUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|solutionrelative:d3dUtil.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\LitColumnsApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|D:\\GitHub\\GGP_Khu\\Homework2\\LitColumnsApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B590A678-E935-4AED-AF1F-3B6D02A4AE95}|LitColumns.vcxproj|solutionrelative:LitColumnsApp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -26,43 +26,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "color.hlsl",
-              "DocumentMoniker": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\Shaders\\color.hlsl",
+              "DocumentMoniker": "D:\\GitHub\\GGP_Khu\\Homework2\\Shaders\\color.hlsl",
               "RelativeDocumentMoniker": "Shaders\\color.hlsl",
-              "ToolTip": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\Shaders\\color.hlsl",
+              "ToolTip": "D:\\GitHub\\GGP_Khu\\Homework2\\Shaders\\color.hlsl",
               "RelativeToolTip": "Shaders\\color.hlsl",
-              "ViewState": "AgIAACcAAAAAAAAAAADwv0YAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAywD4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-05-14T02:39:27.527Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T02:39:27.527Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "d3dUtil.h",
-              "DocumentMoniker": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\d3dUtil.h",
+              "DocumentMoniker": "D:\\GitHub\\GGP_Khu\\Homework2\\d3dUtil.h",
               "RelativeDocumentMoniker": "d3dUtil.h",
-              "ToolTip": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\d3dUtil.h",
+              "ToolTip": "D:\\GitHub\\GGP_Khu\\Homework2\\d3dUtil.h",
               "RelativeToolTip": "d3dUtil.h",
               "ViewState": "AgIAALkAAAAAAAAAAAAQwN8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-14T02:29:48.286Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T02:29:48.286Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "LightingUtil.hlsl",
-              "DocumentMoniker": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\Shaders\\LightingUtil.hlsl",
+              "DocumentMoniker": "D:\\GitHub\\GGP_Khu\\Homework2\\Shaders\\LightingUtil.hlsl",
               "RelativeDocumentMoniker": "Shaders\\LightingUtil.hlsl",
-              "ToolTip": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\Shaders\\LightingUtil.hlsl",
+              "ToolTip": "D:\\GitHub\\GGP_Khu\\Homework2\\Shaders\\LightingUtil.hlsl",
               "RelativeToolTip": "Shaders\\LightingUtil.hlsl",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADUAAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
               "WhenOpened": "2026-05-14T02:29:13.981Z",
               "EditorCaption": ""
@@ -71,14 +69,13 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "LitColumnsApp.cpp",
-              "DocumentMoniker": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\LitColumnsApp.cpp",
+              "DocumentMoniker": "D:\\GitHub\\GGP_Khu\\Homework2\\LitColumnsApp.cpp",
               "RelativeDocumentMoniker": "LitColumnsApp.cpp",
-              "ToolTip": "D:\\jimmy\\GGP\\GGP_Khu\\Homework2\\LitColumnsApp.cpp",
+              "ToolTip": "D:\\GitHub\\GGP_Khu\\Homework2\\LitColumnsApp.cpp",
               "RelativeToolTip": "LitColumnsApp.cpp",
               "ViewState": "AgIAAAUBAAAAAAAAAAAowBUBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-14T01:36:43.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-14T01:36:43.145Z"
             }
           ]
         }

@@ -25,7 +25,11 @@ cbuffer cbPass : register(b1)
     float cbPerPassPad1;
     float3 gAmbientLight;
     float cbPerPassPad2;
-    Light gLights[1];
+    int gNumDirLights;
+    int gNumPointLights;
+    int gNumSpotLights;
+    float cbPerPassPad3;
+    Light gLights[MaxLights];
 };
 
 struct VertexIn
@@ -60,12 +64,13 @@ float4 PS(VertexOut pin) : SV_Target // Pixel Shader
 {
     // interpolating normal can unnormalize it, so renormalize it.
     pin.NormalW = normalize(pin.NormalW);
-    float toEyeW = normalize(gEyePosW - pin.PosW);
-    float3 ambietn = gAmbientLight * gDiffAlbedo;
+    float3 toEyeW = normalize(gEyePosW - pin.PosW);
+    float3 ambient = gAmbientLight * gDiffAlbedo;
     Material mat = { gDiffAlbedo, gSpecAlbedo, gShininess };
-    float3 directLight = ComputeDirectionalLight(gLights[0], mat, pin.NormalW, toEyeW);
+    float3 directLight = ComputeLighting(gLights, gNumDirLights, gNumPointLights, gNumSpotLights,
+                                         mat, pin.PosW, pin.NormalW, toEyeW);
     float4 litColor;
-    litColor.rgb = ambietn + directLight;
+    litColor.rgb = ambient + directLight;
     litColor.a = 1.0;
     return litColor;
 }

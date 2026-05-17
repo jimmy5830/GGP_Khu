@@ -286,9 +286,34 @@ void LitColumnsApp::UpdateMainPassCB(const GameTimer& gt) {
     XMStoreFloat4x4(&mMainPassCB.Proj, XMMatrixTranspose(proj));
     mMainPassCB.AmbientLight = AMBIENT_LIGHT_INIT;
     mMainPassCB.EyePos = mEyePos;
-    mMainPassCB.Lights[0].Direction = { 0.57735f, -0.57735f,
-    0.57735f };
-    mMainPassCB.Lights[0].Strength = { 0.6f, 0.6f, 0.6f };
+
+#if NUM_DIR_LIGHTS > 0
+    for (int i = 0; i < NUM_DIR_LIGHTS; ++i) {
+        mMainPassCB.Lights[i].Direction = DIR_LIGHT_DIRECTIONS[i];
+        mMainPassCB.Lights[i].Strength  = DIR_LIGHT_STRENGTHS[i];
+    }
+#endif
+#if NUM_POINT_LIGHTS > 0
+    for (int i = 0; i < NUM_POINT_LIGHTS; ++i) {
+        int idx = NUM_DIR_LIGHTS + i;
+        mMainPassCB.Lights[idx].Position     = POINT_LIGHT_POSITIONS[i];
+        mMainPassCB.Lights[idx].Strength     = POINT_LIGHT_STRENGTHS[i];
+        mMainPassCB.Lights[idx].FalloffStart = POINT_LIGHT_FALLOFF_STARTS[i];
+        mMainPassCB.Lights[idx].FalloffEnd   = POINT_LIGHT_FALLOFF_ENDS[i];
+    }
+#endif
+#if NUM_SPOT_LIGHTS > 0
+    for (int i = 0; i < NUM_SPOT_LIGHTS; ++i) {
+        int idx = NUM_DIR_LIGHTS + NUM_POINT_LIGHTS + i;
+        mMainPassCB.Lights[idx].Position     = SPOT_LIGHT_POSITIONS[i];
+        mMainPassCB.Lights[idx].Direction    = SPOT_LIGHT_DIRECTIONS[i];
+        mMainPassCB.Lights[idx].Strength     = SPOT_LIGHT_STRENGTHS[i];
+        mMainPassCB.Lights[idx].FalloffStart = SPOT_LIGHT_FALLOFF_STARTS[i];
+        mMainPassCB.Lights[idx].FalloffEnd   = SPOT_LIGHT_FALLOFF_ENDS[i];
+        mMainPassCB.Lights[idx].SpotPower    = SPOT_LIGHT_SPOTPOWER[i];
+    }
+#endif
+
     mCurrFrameResource->PassCB->CopyData(0, mMainPassCB);
 }
 

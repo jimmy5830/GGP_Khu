@@ -30,7 +30,11 @@ struct PassConstants
     float cbPerPassPad1 = 0.0f;
     DirectX::XMFLOAT3 AmbientLight;
     float cbPerPassPad2 = 0.0f;
-    Light Lights[1];
+    int NumDirLights = NUM_DIR_LIGHTS;
+    int NumPointLights = NUM_POINT_LIGHTS;
+    int NumSpotLights = NUM_SPOT_LIGHTS;
+    float cbPerPassPad3 = 0.0f;
+    Light Lights[MaxLights];
 };
 
 
