@@ -313,6 +313,14 @@ void LitColumnsApp::UpdateMainPassCB(const GameTimer& gt) {
         mMainPassCB.Lights[idx].SpotPower    = SPOT_LIGHT_SPOTPOWER[i];
     }
 #endif
+#if NUM_HEMI_LIGHTS > 0
+    for (int i = 0; i < NUM_HEMI_LIGHTS; ++i) {
+        int idx = NUM_DIR_LIGHTS + NUM_POINT_LIGHTS + NUM_SPOT_LIGHTS + i;
+        mMainPassCB.Lights[idx].Strength  = HEMI_LIGHT_SKY_COLORS[i];    // sky color
+        mMainPassCB.Lights[idx].Position  = HEMI_LIGHT_GROUND_COLORS[i]; // ground color (repurposed)
+        mMainPassCB.Lights[idx].Direction = HEMI_LIGHT_DIRECTIONS[i];    // up axis
+    }
+#endif
 
     mCurrFrameResource->PassCB->CopyData(0, mMainPassCB);
 }

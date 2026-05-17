@@ -90,8 +90,20 @@ float3 ComputeSpotLight(Light L, Material mat, float3 pos, float3 normal, float3
 }
 
 
+//---------------------------------------------------------------------------------------
+// Evaluates the lighting equation for hemisphere lights.
+// Strength = sky color, Position (repurposed) = ground color, Direction = world up axis.
+//---------------------------------------------------------------------------------------
+float3 ComputeHemisphereLight(Light L, Material mat, float3 normal)
+{
+    float t = 0.5f * (dot(normal, L.Direction) + 1.0f);
+    float3 hemiColor = lerp(L.Position, L.Strength, t);
+    return hemiColor * mat.diffAlbedo;
+}
+
+
 float3 ComputeLighting(Light gLights[MaxLights],
-                       int numDirLights, int numPointLights, int numSpotLights,
+                       int numDirLights, int numPointLights, int numSpotLights, int numHemiLights,
                        Material mat, float3 pos, float3 normal, float3 toEye)
 {
     float3 result = 0.0f;
@@ -105,6 +117,10 @@ float3 ComputeLighting(Light gLights[MaxLights],
 
     for (i = numDirLights + numPointLights; i < numDirLights + numPointLights + numSpotLights; ++i)
         result += ComputeSpotLight(gLights[i], mat, pos, normal, toEye);
+
+    for (i = numDirLights + numPointLights + numSpotLights;
+         i < numDirLights + numPointLights + numSpotLights + numHemiLights; ++i)
+        result += ComputeHemisphereLight(gLights[i], mat, normal);
 
     return result;
 }

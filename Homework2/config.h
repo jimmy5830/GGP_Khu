@@ -7,10 +7,12 @@
 						// 1: Diffuse only
 					    // 2: Specular only
 						// 3: Specular only (strong)
-#define LIGHT_OPTION 3 // 0: dir only
+#define LIGHT_OPTION 5 // 0: dir only
 					   // 1: point only
 					   // 2: spot only
 					   // 3: 1 dir + 1 point + 1 spot
+					   // 4: hemisphere only
+					   // 5: 1 dir + 1 point + 1 spot + 1 hemisphere
 
 #if CAMERA_INIT < 4
 const float THETA_INIT = (1.5f + 0.5f*CAMERA_INIT) * DirectX::XM_PI;
@@ -86,8 +88,25 @@ const float              SPOT_LIGHT_SPOTPOWER[NUM_SPOT_LIGHTS] = {
 #define NUM_SPOT_LIGHTS 0
 #endif
 
-static_assert(NUM_DIR_LIGHTS + NUM_POINT_LIGHTS + NUM_SPOT_LIGHTS <= MaxLights,
-	"To total number of directional, positional, and spot lights cannot be exceed `MaxLights`.");
+// Hemisphere Light Sources
+// Uses Strength as sky color, Position (repurposed) as ground color, Direction as up-axis.
+#if LIGHT_OPTION == 4 || LIGHT_OPTION == 5
+#define NUM_HEMI_LIGHTS 1
+const DirectX::XMFLOAT3 HEMI_LIGHT_SKY_COLORS[NUM_HEMI_LIGHTS] = {
+	{ 0.0f, 0.3f, 0.5f }
+};
+const DirectX::XMFLOAT3 HEMI_LIGHT_GROUND_COLORS[NUM_HEMI_LIGHTS] = {
+	{ 0.1f, 0.08f, 0.0f }
+};
+const DirectX::XMFLOAT3 HEMI_LIGHT_DIRECTIONS[NUM_HEMI_LIGHTS] = {
+	{ 0.0f, 1.0f, 0.0f }
+};
+#else
+#define NUM_HEMI_LIGHTS 0
+#endif
+
+static_assert(NUM_DIR_LIGHTS + NUM_POINT_LIGHTS + NUM_SPOT_LIGHTS + NUM_HEMI_LIGHTS <= MaxLights,
+	"The total number of lights cannot exceed MaxLights.");
 
 //---------------------------------------------------------------------------------------
 // Materials

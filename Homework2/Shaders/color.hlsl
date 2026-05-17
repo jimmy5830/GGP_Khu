@@ -28,7 +28,7 @@ cbuffer cbPass : register(b1)
     int gNumDirLights;
     int gNumPointLights;
     int gNumSpotLights;
-    float cbPerPassPad3;
+    int gNumHemiLights;
     Light gLights[MaxLights];
 };
 
@@ -67,7 +67,7 @@ float4 PS(VertexOut pin) : SV_Target // Pixel Shader
     float3 toEyeW = normalize(gEyePosW - pin.PosW);
     float3 ambient = gAmbientLight * gDiffAlbedo;
     Material mat = { gDiffAlbedo, gSpecAlbedo, gShininess };
-    float3 directLight = ComputeLighting(gLights, gNumDirLights, gNumPointLights, gNumSpotLights,
+    float3 directLight = ComputeLighting(gLights, gNumDirLights, gNumPointLights, gNumSpotLights, gNumHemiLights,
                                          mat, pin.PosW, pin.NormalW, toEyeW);
     float4 litColor;
     litColor.rgb = ambient + directLight;

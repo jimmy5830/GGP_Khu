@@ -33,7 +33,7 @@ struct PassConstants
     int NumDirLights = NUM_DIR_LIGHTS;
     int NumPointLights = NUM_POINT_LIGHTS;
     int NumSpotLights = NUM_SPOT_LIGHTS;
-    float cbPerPassPad3 = 0.0f;
+    int NumHemiLights = NUM_HEMI_LIGHTS;
     Light Lights[MaxLights];
 };
 
